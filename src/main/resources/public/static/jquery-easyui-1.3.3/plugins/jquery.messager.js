@@ -112,8 +112,8 @@ return _b(_14);
 },alert:function(_15,msg,_16,fn){
 var _17="<div>"+msg+"</div>";
 switch(_16){
-case "error":
-_17="<div class=\"messager-icon messager-error\"></div>"+_17;
+case "errors.ftl.ftl.ftl":
+_17="<div class=\"messager-icon messager-errors.ftl\"></div>"+_17;
 break;
 case "info":
 _17="<div class=\"messager-icon messager-info\"></div>"+_17;
